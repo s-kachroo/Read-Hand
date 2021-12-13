@@ -30,6 +30,44 @@ There are total 7 layers in the CNN:
 6. First Full Layer with `relu`
 7. Output Layer with `sigmoid`
 
+## Technologies Used - ENABLE
+
+* Deep Learning
+* Speech Recognition
+* CNN-Keras
+* Python 
+* OpenCV
+* Python3
+* Win32com
+* Image Processing
+* Image Recognition
+* Docx
+
+## Challenges - ENABLE
+
+The major challenge was to make this project light and not dependent on internet. So we had to use libraries which used minimum internet in order to carry out the task. We could not use any APIs as they'd require the use of internet. Secondly creating sign language transcripts was rather difficult because there wasn't any existing font for it and the ones which resembled closely weren't legible. So we had to scout images which were clear and could be used and yet maintain uniformity. The next challenge was the sign to text converter. We had to design a model what was fast and accurate to differentiate between words and spaces and we somehow did a decent job at it. Since it's already a challenge to create a level playing ground for those who are differently abled, we believe we did give a great start to the initiative to bring about some attention towards this as this might be the new normal for a while now.
+
+## Key Features - ENABLE
+
+* ENABLE converts ASL SIGN hand gestures to English TEXT dynamically.
+* ENABLE converts Speech to Braille script proactively.
+* ENABLE converts English TEXT to SIGN hand gestures.
+
+## Snapshots - ENABLE
+
+##### 1. Speech To Braille
+<img src="http://devfolio-prod.s3.ap-south-1.amazonaws.com/hackathons/bfedfa89e30645b68a7145c312d3da12/projects/38ba2f4b826e42a68f3ece4c5be0684e/picfxtquvsd5.png" width="500"> 
+
+##### 2. Speech To Sign
+<img src="https://devfolio-prod.s3.ap-south-1.amazonaws.com/hackathons/bfedfa89e30645b68a7145c312d3da12/projects/38ba2f4b826e42a68f3ece4c5be0684e/picos6ueyx61.png" width="500"> 
+
+##### 3. Sign To Text (Prediction of Letter 'K')
+<img src="https://devfolio-prod.s3.ap-south-1.amazonaws.com/hackathons/bfedfa89e30645b68a7145c312d3da12/projects/38ba2f4b826e42a68f3ece4c5be0684e/picnjhewvtif.png" width="500"> 
+
+## Video Demonstration - ENABLE
+
+https://devfolio.co/submissions/enable
+
 ## Results
 
 - Training Set Accuracy: `96.06 %`
